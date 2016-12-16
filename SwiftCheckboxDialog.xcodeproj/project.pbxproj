@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F2D42691E03E4D700D29DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D42681E03E4D700D29DE9 /* AppDelegate.swift */; };
+		6F2D426B1E03E4D700D29DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D426A1E03E4D700D29DE9 /* ViewController.swift */; };
+		6F2D426E1E03E4D700D29DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2D426C1E03E4D700D29DE9 /* Main.storyboard */; };
+		6F2D42701E03E4D700D29DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2D426F1E03E4D700D29DE9 /* Assets.xcassets */; };
+		6F2D42731E03E4D700D29DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2D42711E03E4D700D29DE9 /* LaunchScreen.storyboard */; };
+		6F2D427B1E03E53F00D29DE9 /* CheckboxDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D427A1E03E53F00D29DE9 /* CheckboxDialogViewController.swift */; };
+		6F2D427D1E03E66700D29DE9 /* CheckboxViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D427C1E03E66700D29DE9 /* CheckboxViewCell.swift */; };
+		6F2D427F1E03E6A300D29DE9 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D427E1E03E6A300D29DE9 /* String.swift */; };
+		6F2D42821E03EA3400D29DE9 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D42811E03EA3400D29DE9 /* UIColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F2D42651E03E4D700D29DE9 /* SwiftCheckboxDialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCheckboxDialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2D42681E03E4D700D29DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F2D426A1E03E4D700D29DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F2D426D1E03E4D700D29DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F2D426F1E03E4D700D29DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F2D42721E03E4D700D29DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F2D42741E03E4D700D29DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2D427A1E03E53F00D29DE9 /* CheckboxDialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxDialogViewController.swift; sourceTree = "<group>"; };
+		6F2D427C1E03E66700D29DE9 /* CheckboxViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxViewCell.swift; sourceTree = "<group>"; };
+		6F2D427E1E03E6A300D29DE9 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		6F2D42811E03EA3400D29DE9 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F2D42621E03E4D700D29DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F2D425C1E03E4D700D29DE9 = {
+			isa = PBXGroup;
+			children = (
+				6F2D42671E03E4D700D29DE9 /* SwiftCheckboxDialog */,
+				6F2D42661E03E4D700D29DE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F2D42661E03E4D700D29DE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F2D42651E03E4D700D29DE9 /* SwiftCheckboxDialog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F2D42671E03E4D700D29DE9 /* SwiftCheckboxDialog */ = {
+			isa = PBXGroup;
+			children = (
+				6F2D42801E03E6AA00D29DE9 /* Extension */,
+				6F2D42831E03ED8B00D29DE9 /* CheckboxDialog */,
+				6F2D42681E03E4D700D29DE9 /* AppDelegate.swift */,
+				6F2D426A1E03E4D700D29DE9 /* ViewController.swift */,
+				6F2D426C1E03E4D700D29DE9 /* Main.storyboard */,
+				6F2D426F1E03E4D700D29DE9 /* Assets.xcassets */,
+				6F2D42711E03E4D700D29DE9 /* LaunchScreen.storyboard */,
+				6F2D42741E03E4D700D29DE9 /* Info.plist */,
+			);
+			path = SwiftCheckboxDialog;
+			sourceTree = "<group>";
+		};
+		6F2D42801E03E6AA00D29DE9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6F2D427E1E03E6A300D29DE9 /* String.swift */,
+				6F2D42811E03EA3400D29DE9 /* UIColor.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		6F2D42831E03ED8B00D29DE9 /* CheckboxDialog */ = {
+			isa = PBXGroup;
+			children = (
+				6F2D427A1E03E53F00D29DE9 /* CheckboxDialogViewController.swift */,
+				6F2D427C1E03E66700D29DE9 /* CheckboxViewCell.swift */,
+			);
+			name = CheckboxDialog;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F2D42641E03E4D700D29DE9 /* SwiftCheckboxDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F2D42771E03E4D700D29DE9 /* Build configuration list for PBXNativeTarget "SwiftCheckboxDialog" */;
+			buildPhases = (
+				6F2D42611E03E4D700D29DE9 /* Sources */,
+				6F2D42621E03E4D700D29DE9 /* Frameworks */,
+				6F2D42631E03E4D700D29DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCheckboxDialog;
+			productName = SwiftCheckboxDialog;
+			productReference = 6F2D42651E03E4D700D29DE9 /* SwiftCheckboxDialog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F2D425D1E03E4D700D29DE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.kkontus;
+				TargetAttributes = {
+					6F2D42641E03E4D700D29DE9 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 68PSFYW4WR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6F2D42601E03E4D700D29DE9 /* Build configuration list for PBXProject "SwiftCheckboxDialog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F2D425C1E03E4D700D29DE9;
+			productRefGroup = 6F2D42661E03E4D700D29DE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F2D42641E03E4D700D29DE9 /* SwiftCheckboxDialog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F2D42631E03E4D700D29DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2D42731E03E4D700D29DE9 /* LaunchScreen.storyboard in Resources */,
+				6F2D42701E03E4D700D29DE9 /* Assets.xcassets in Resources */,
+				6F2D426E1E03E4D700D29DE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F2D42611E03E4D700D29DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2D426B1E03E4D700D29DE9 /* ViewController.swift in Sources */,
+				6F2D42821E03EA3400D29DE9 /* UIColor.swift in Sources */,
+				6F2D427B1E03E53F00D29DE9 /* CheckboxDialogViewController.swift in Sources */,
+				6F2D427F1E03E6A300D29DE9 /* String.swift in Sources */,
+				6F2D42691E03E4D700D29DE9 /* AppDelegate.swift in Sources */,
+				6F2D427D1E03E66700D29DE9 /* CheckboxViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F2D426C1E03E4D700D29DE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F2D426D1E03E4D700D29DE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F2D42711E03E4D700D29DE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F2D42721E03E4D700D29DE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F2D42751E03E4D700D29DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F2D42761E03E4D700D29DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F2D42781E03E4D700D29DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68PSFYW4WR;
+				INFOPLIST_FILE = SwiftCheckboxDialog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkontus.SwiftCheckboxDialog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6F2D42791E03E4D700D29DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68PSFYW4WR;
+				INFOPLIST_FILE = SwiftCheckboxDialog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkontus.SwiftCheckboxDialog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F2D42601E03E4D700D29DE9 /* Build configuration list for PBXProject "SwiftCheckboxDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2D42751E03E4D700D29DE9 /* Debug */,
+				6F2D42761E03E4D700D29DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F2D42771E03E4D700D29DE9 /* Build configuration list for PBXNativeTarget "SwiftCheckboxDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2D42781E03E4D700D29DE9 /* Debug */,
+				6F2D42791E03E4D700D29DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F2D425D1E03E4D700D29DE9 /* Project object */;
+}

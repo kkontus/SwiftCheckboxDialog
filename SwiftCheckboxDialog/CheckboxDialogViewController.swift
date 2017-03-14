@@ -111,6 +111,11 @@ class CheckboxDialogViewController: UIViewController, UITableViewDelegate, UITab
     
     func createTitleLabel() {
         let title = titleDialog
+        titleLabel.numberOfLines = 2
+        titleLabel.lineBreakMode = .byTruncatingTail
+        titleLabel.adjustsFontSizeToFitWidth = true
+        titleLabel.minimumScaleFactor = 0.5
+        titleLabel.textAlignment = .center
         titleLabel.font = UIFont.boldSystemFont(ofSize: 17.0)
         titleLabel.text = title
         titleLabel.textColor = UIColor.defaultDialogTextColor()
@@ -118,6 +123,7 @@ class CheckboxDialogViewController: UIViewController, UITableViewDelegate, UITab
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         self.titleView.addSubview(titleLabel)
         
+        titleLabel.widthAnchor.constraint(equalToConstant: dialogViewWidth-10).isActive = true // 10 is for padding, 5 on each side since we have centerX
         titleLabel.centerXAnchor.constraint(equalTo: titleView.centerXAnchor).isActive = true
         titleLabel.centerYAnchor.constraint(equalTo: titleView.centerYAnchor).isActive = true
         titleLabel.heightAnchor.constraint(equalToConstant: 40.0).isActive = true
